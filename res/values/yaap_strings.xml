@@ -273,4 +273,7 @@
     <string name="status_bar_brightness_control_title">Brightness control</string>
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
 
+    <!-- Customisation -->
+    <string name="customisation_title">Themes</string>
+
 </resources>
