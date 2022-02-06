@@ -40,12 +40,4 @@
         android:title="@string/ui_tuner_title">
         <intent android:action="com.android.settings.action.UI_TUNER"/>
     </Preference>
-
-    <!-- Monet -->
-    <Preference
-        android:key="monet_settings"
-        android:title="@string/monet_engine_settings_title"
-        android:summary="@string/monet_engine_settings_summary"
-        android:fragment="com.yasp.settings.fragments.MonetSettings" />
-
 </PreferenceScreen>
