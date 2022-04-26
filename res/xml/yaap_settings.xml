@@ -17,26 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/yaap_settings_title" >
     
-        <!-- Customization -->
-        <Preference
-	        android:key="customisation"
-	        android:title="@string/customisation_title"
-	        android:fragment="com.yasp.settings.fragments.Customisation"
-	        android:icon="@drawable/ic_customisation"/>
-
-        <!-- Status Bar -->
-        <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.yasp.settings.fragments.StatusBarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
-
-        <!-- Quick Settings -->
-        <Preference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.yasp.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
+        <!-- YASP Card -->
+        <com.android.settingslib.widget.LayoutPreference
+        android:key="yaap_card"
+        android:layout="@layout/yaap_card"
+        android:selectable="true" />
+        	
 
         <!-- Buttons -->
         <!-- <Preference
