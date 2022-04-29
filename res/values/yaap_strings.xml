@@ -285,4 +285,8 @@
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
     <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    
+    <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
+    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
 </resources>

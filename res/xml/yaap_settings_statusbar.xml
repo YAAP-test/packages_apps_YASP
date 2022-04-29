@@ -24,6 +24,12 @@
         android:title="@string/network_traffic_state_title"
         android:fragment="com.yasp.settings.fragments.NetTrafficMonSettings"
         android:defaultValue="false" />
+        
+    <com.yasp.settings.preferences.SystemSettingSwitchPreference
+             android:key="show_fourg_icon"
+             android:title="@string/show_fourg_icon_title"
+             android:summary="@string/show_fourg_icon_summary"
+             android:defaultValue="false"/>
 
     <!-- Double tap to sleep -->
     <com.yasp.settings.preferences.SystemSettingSwitchPreference
