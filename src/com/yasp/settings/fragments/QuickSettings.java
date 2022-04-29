@@ -47,10 +47,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String QS_FOOTER_TEXT_STRING = "qs_footer_text_string";
-    private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
 
     private SystemSettingEditTextPreference mFooterString;
-    private SecureSettingMasterSwitchPreference mBrightnessSlider;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -58,13 +56,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.yaap_settings_quicksettings);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
-
-        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
-                findPreference(BRIGHTNESS_SLIDER);
-        mBrightnessSlider.setOnPreferenceChangeListener(this);
-        boolean enabled = Settings.Secure.getInt(resolver,
-                BRIGHTNESS_SLIDER, 1) == 1;
-        mBrightnessSlider.setChecked(enabled);
 
         mFooterString = (SystemSettingEditTextPreference) findPreference(QS_FOOTER_TEXT_STRING);
         mFooterString.setOnPreferenceChangeListener(this);
@@ -92,11 +83,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.putString(resolver,
                         Settings.System.QS_FOOTER_TEXT_STRING, "YAAP");
             }
-            return true;
-        } else if (preference == mBrightnessSlider) {
-            Boolean value = (Boolean) newValue;
-            Settings.Secure.putInt(resolver,
-                    BRIGHTNESS_SLIDER, value ? 1 : 0);
             return true;
         }
         return false;

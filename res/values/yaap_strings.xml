@@ -144,14 +144,6 @@
     <string name="flashlight_on_call_rate_title">Rate</string>
     <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
 
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
-
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
