@@ -28,7 +28,7 @@
     <string name="powermenu_title">Меню выключения</string>
     <string name="quicksettings_title">Быстрые настройки</string>
     <string name="recents_title">Последние приложения</string>
-    <string name="statusbar_title">Статусбар</string>
+    <string name="statusbar_title">Статус-бар</string>
     <string name="volume_title">Звук</string>
     <string name="flashlight_category">Вспышка</string>
 
@@ -42,7 +42,7 @@
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
-    <string name="press_color_to_apply">Нажмите на получившейся цвет справа чтобы применить</string>
+    <string name="press_color_to_apply">Нажмите на получившийся цвет справа, чтобы применить</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -57,11 +57,11 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
-    <string name="lockscreen_battery_info_summary">Отобржать максимальный ток, вольтаж и температуру во время зарядки</string>
+    <string name="lockscreen_battery_info_summary">Отображать максимальный ток, вольтаж и температуру во время зарядки</string>
 
     <!-- QS footer running services -->
     <string name="qs_footer_services_show_title">Запущенные процессы</string>
-    <string name="qs_footer_services_show_summary">Показывать кнопку перехода к списку запущенных процессов в нижнем колонтитуле быстрых настроек</string>
+    <string name="qs_footer_services_show_summary">Показывать кнопку перехода к списку, запущенных процессов в нижнем колонтитуле быстрых настроек</string>
 
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Отображать текст в нижнем колонтитуле быстрых настроек</string>
@@ -105,8 +105,8 @@
     <string name="network_traffic_state_title">Скорость сети</string>
     <string name="network_traffic_state_summary">Отображать в</string>
     <string name="network_traffic_location_title">Расположение</string>
-    <string name="traffic_statusbar">статусбаре</string>
-    <string name="traffic_expanded_statusbar">заголовке быстрых настроек</string>
+    <string name="traffic_statusbar">В статус-баре</string>
+    <string name="traffic_expanded_statusbar">В заголовке быстрых настроек</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности</string>
     <string name="network_traffic_arrow_title">Показывать стрелки</string>
     <string name="network_traffic_arrow_summary">Индикатор загрузки / выгрузки</string>
@@ -124,7 +124,7 @@
 
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Отпечаток пальца на выключеном экране</string>
-    <string name="screen_off_fod_summary">Считывать отпечаток пальца даже когда экран выключен</string>
+    <string name="screen_off_fod_summary">Считывать отпечаток пальца даже, когда экран выключен</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Вибрация при звонке</string>
@@ -136,11 +136,11 @@
     <string name="flashlight_on_call_title">Световой сигнал при входящих вызовах</string>
     <string name="flashlight_on_call_disabled">Отключено</string>
     <string name="flashlight_on_call_ringer">Во время рингтона</string>
-    <string name="flashlight_on_call_no_ringer">Во время того как рингтон заглушен</string>
+    <string name="flashlight_on_call_no_ringer">Во время того, как рингтон заглушен</string>
     <string name="flashlight_on_call_silent">Во время полной тишины (без вибрации и рингтона)</string>
     <string name="flashlight_on_call_always">Всегда</string>
     <string name="flashlight_on_call_ignore_dnd_title">Игнорировать "не беспокоить"</string>
-    <string name="flashlight_on_call_ignore_dnd_summary">Использовать световой сигнал даже если активен режим "не беспокоить"</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Использовать световой сигнал, даже если активен режим "не беспокоить"</string>
     <string name="flashlight_on_call_rate_title">Частота</string>
     <string name="flashlight_on_call_rate_summary">Как быстро повторять световой сигнал</string>
 
@@ -165,7 +165,7 @@
 
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Выключение нажатием</string>
-    <string name="double_tap_sleep_gesture_summary">Нажмите два раза на статусбар для отключения экрана</string>
+    <string name="double_tap_sleep_gesture_summary">Нажмите два раза на статус-бар для отключения экрана</string>
 
     <!-- Advanced reboot  -->
     <string name="advanced_reboot_title">Расширенная перезагрузка</string>
@@ -211,11 +211,11 @@
     <string name="aod_disabled">AOD отключен</string>
     <string name="ambient_notification_light_enabled_summary">Показывать вместе с AOD</string>
     <string name="ambient_notification_light_hide_aod_title">Скрывать AOD</string>
-    <string name="ambient_notification_light_hide_aod_summary">Отклбчить AOD во время подсветки краёв</string>
+    <string name="ambient_notification_light_hide_aod_summary">Отключить AOD во время подсветки краёв</string>
     <string name="ambient_notification_light_duration_title">Продолжительность</string>
     <string name="ambient_notification_light_duration_summary">Время проигрывания анимации после получения уведомления</string>
     <string name="ambient_notification_light_repeats_title">Повторения</string>
-    <string name="ambient_notification_light_repeats_summary">Количество повторений (выбирите 0 для постоянного повторения)</string>
+    <string name="ambient_notification_light_repeats_summary">Количество повторений (выберите 0 для постоянного повторения)</string>
     <string name="ambient_notification_light_timeout_title">Повторять через</string>
     <string name="ambient_notification_light_timeout_forever">показать один раз</string>
     <string name="ambient_notification_light_timeout_half_minute">30 секунд</string>
@@ -223,7 +223,7 @@
     <string name="ambient_notification_light_timeout_three_minutes">3 минуты</string>
     <string name="ambient_notification_light_timeout_five_minutes">5 минут</string>
     <string name="ambient_notification_light_timeout_ten_minutes">10 минут</string>
-    <string name="set_to_zero">Выбирете 0 в "Повторения" для активации</string>
+    <string name="set_to_zero">Выберете 0 в "Повторения" для активации</string>
     <string name="ambient_notification_color_mode_title">Тип цвета</string>
     <string name="ambient_notification_color_mode_accent">Цвет акцента</string>
     <string name="ambient_notification_color_mode_wall">Доминирующий цвет обоев</string>
@@ -241,7 +241,7 @@
 
     <!-- QS media player -->
     <string name="qs_media_controls_title">Плеер</string>
-    <string name="qs_media_controls_summary_on">Плеер в быстрых настройках показан всегда (для прменения перезагрузите SystemUI)</string>
+    <string name="qs_media_controls_summary_on">Плеер в быстрых настройках показан всегда (для применения перезагрузите SystemUI)</string>
     <string name="qs_media_controls_summary_off">Плеер в быстрых настройках показан только во время использования (для применения перезагрузите SystemUI)</string>
 
     <!-- QS Battery estimates -->
@@ -252,7 +252,7 @@
     <!-- Location privacy indicator -->
     <string name="location_privacy_indicator_title">Индикатор доступа к местоположению</string>
     <string name="location_privacy_indicator_summary_on">Показывать локацию в privacy chip</string>
-    <string name="location_privacy_indicator_summary_off">Показывать локацию как иконку в статусбаре</string>
+    <string name="location_privacy_indicator_summary_off">Показывать локацию, как иконку в статус-баре</string>
 
     <!-- Clock position -->
     <string name="statusbar_clock_position_title">Расположение часов</string>
@@ -271,6 +271,6 @@
 
     <!-- Brightness control -->
     <string name="status_bar_brightness_control_title">Контроль яркости</string>
-    <string name="status_bar_brightness_control_summary">Управлять яркостью проведя по статусбару</string>
+    <string name="status_bar_brightness_control_summary">Управлять яркостью, проведя по статус-бару</string>
 
 </resources>
