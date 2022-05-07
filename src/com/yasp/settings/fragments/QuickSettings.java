@@ -37,55 +37,18 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.yasp.settings.preferences.SecureSettingMasterSwitchPreference;
-import com.yasp.settings.preferences.SystemSettingEditTextPreference;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable
-public class QuickSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
-
-    private static final String QS_FOOTER_TEXT_STRING = "qs_footer_text_string";
-
-    private SystemSettingEditTextPreference mFooterString;
+public class QuickSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.yaap_settings_quicksettings);
         PreferenceScreen prefSet = getPreferenceScreen();
-        ContentResolver resolver = getActivity().getContentResolver();
-
-        mFooterString = (SystemSettingEditTextPreference) findPreference(QS_FOOTER_TEXT_STRING);
-        mFooterString.setOnPreferenceChangeListener(this);
-        String footerString = Settings.System.getString(resolver,
-                QS_FOOTER_TEXT_STRING);
-        if (footerString != null && !footerString.isEmpty())
-            mFooterString.setText(footerString);
-        else {
-            mFooterString.setText("YAAP");
-            Settings.System.putString(resolver,
-                    Settings.System.QS_FOOTER_TEXT_STRING, "YAAP");
-        }
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mFooterString) {
-            String value = (String) newValue;
-            if (value != null && !value.isEmpty())
-                Settings.System.putString(resolver,
-                        Settings.System.QS_FOOTER_TEXT_STRING, value);
-            else {
-                mFooterString.setText("YAAP");
-                Settings.System.putString(resolver,
-                        Settings.System.QS_FOOTER_TEXT_STRING, "YAAP");
-            }
-            return true;
-        }
-        return false;
     }
 
     @Override

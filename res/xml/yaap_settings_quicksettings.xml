@@ -53,20 +53,6 @@
         android:summary="@string/qs_footer_services_show_summary"
         android:defaultValue="false" />
 
-    <!-- QS footer text toggle -->
-    <com.yasp.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_footer_text_show"
-        android:title="@string/qs_footer_text_show_title"
-        android:defaultValue="false" />
-
-    <!-- QS footer text string -->
-    <com.yasp.settings.preferences.SystemSettingEditTextPreference
-        android:key="qs_footer_text_string"
-        android:title="@string/qs_footer_text_string_title"
-        android:summary="@string/qs_footer_text_string_summary"
-        android:dependency="qs_footer_text_show"
-        android:defaultValue="YAAP" />
-
     <!-- Media player in QS -->
     <com.yasp.settings.preferences.GlobalSettingSwitchPreference
         android:key="qs_media_controls"
